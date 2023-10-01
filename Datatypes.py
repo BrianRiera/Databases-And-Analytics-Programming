@@ -115,4 +115,42 @@ print(my_array.sum())
 print(np.mean(my_array, axis = 1))
 print(np.mean(my_array, axis = 0))
 print(np.max(my_array, axis = 1))
-print(np.min(my_array, axis = 0))
+print(np.min(my_array, axis = 0)) 
+
+
+# Python bootcamp
+while True:
+    user_input = input('Please enter currency in euros here: ')
+    try:
+        number = float(user_input)  # Use float() instead of int() to handle both integers and floats
+        cent = int(number * 100)  # Convert to cents and ensure it's an integer
+        print(f'You have {cent} cents')
+        break  # Exit the loop if valid input is provided
+    except ValueError:
+        print('Invalid input. Please enter a valid number.')
+
+a = float(input('PLease enter 1st grade here'))
+b= float(input('PLease enter 2nd grade here'))
+c = float(input('PLease enter 3rd grade here'))
+d = float(input('PLease enter 4th grade here'))
+e = float(input('PLease enter 5th grade here'))
+project = float(input('PLease enter project grade here'))
+total_grade = (a+b+c+d+e)*0.1 + project *0.5
+if total_grade >= 40:
+    print(f'Congratulations you passed with a score of {total_grade}')
+else:
+    print(f'Unfortunately you failed with a score of {total_grade}')
+    
+import numpy as np
+bork = np.arange(60) 
+bork
+bork = bork.reshape(3,4,5)
+bork
+b = bork[2,2,0:2]
+b
+
+def sumup(n) :
+    total = 0
+    for i in range(1,n+1,1) : total = total+i
+    return total
+sumup(5)
