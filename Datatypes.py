@@ -118,3 +118,5 @@ print(np.max(my_array, axis = 1))
 print(np.min(my_array, axis = 0))
 
 #testing new branch commit
+# this is a test text 
+print('hello')
