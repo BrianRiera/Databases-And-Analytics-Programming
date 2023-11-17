@@ -22,6 +22,14 @@ for value in empty_values:
     else:
         print(f"{value} is not equivalent to False")
 
+a = input('please enter course title here')
+b = input('please enter profession')
+c = 'hello'
+print(c, f'welcome {a} {b}')
+
+my_mark = 82.15
+print(f'my mark in the exam was {my_mark:3.1f}!') #the 3 stands for minimum width 3
+
 degree = 'Bachelors in Data Analytics'
 updated_degree = degree.replace('Bachelors', 'Masters')
 print(updated_degree)
@@ -89,34 +97,6 @@ while True:
         break
 print('here is your shopping list: ', shopping_list)
 
-'''Write some Python code that creates an ndarray with 4 rows and 5 columns, filled with all zeros.
-Set the value in the first column and 3rd row to be equal to 3. Set the value in the fourth column and second row to be equal 
-to 5. Then print the contents of the ndarray'''
-
-import numpy as np
-my_array = np.zeros((4,5))
-my_array[2, 0] = 3
-my_array[1,3] = 5
-print(my_array)
-
-'''Create a snippet of Python code to create an ndarray of 5 rows and 5 columns filled with all numbers from 1 to 25.
-
-Find the sum of the entire ndarray.
-
-Find the following:
-
-the mean of each row
-the mean of each column
-the maximum value in each row
-the minimum value in each column'''
-import numpy as np
-my_array = np.arange(1,26).reshape(5,5)
-print(my_array.sum())
-print(np.mean(my_array, axis = 1))
-print(np.mean(my_array, axis = 0))
-print(np.max(my_array, axis = 1))
-print(np.min(my_array, axis = 0)) 
-
 
 # Python bootcamp
 while True:
@@ -140,17 +120,171 @@ if total_grade >= 40:
     print(f'Congratulations you passed with a score of {total_grade}')
 else:
     print(f'Unfortunately you failed with a score of {total_grade}')
-    
-import numpy as np
-bork = np.arange(60) 
-bork
-bork = bork.reshape(3,4,5)
-bork
-b = bork[2,2,0:2]
-b
 
-def sumup(n) :
-    total = 0
-    for i in range(1,n+1,1) : total = total+i
-    return total
-sumup(5)
+# Confidence level (e.g., 95% confidence interval)
+confidence_level = 0.95
+
+# Calculate the critical value from the t-distribution
+alpha = 1 - confidence_level
+degrees_of_freedom = sample_size - 1
+critical_value = stats.t.ppf(1 - alpha/2, degrees_of_freedom)
+
+# Calculate the margin of error
+margin_of_error = critical_value * (std_dev / np.sqrt(sample_size))
+
+# Calculate the confidence interval
+lower_bound = mean - margin_of_error
+upper_bound = mean + margin_of_error
+
+print("Confidence Interval: [{:.2f}, {:.2f}]".format(lower_bound, upper_bound))
+mean
+std_dev
+critical_value
+lower_bound
+alpha
+degrees_of_freedom
+
+# Confidence level (e.g., 99% confidence interval)
+confidence_level = 0.99
+
+# Calculate the critical value from the t-distribution
+alpha = 1 - confidence_level
+degrees_of_freedom = sample_size - 1
+critical_value = stats.t.ppf(1 - alpha/2, degrees_of_freedom)
+
+# Calculate the margin of error
+margin_of_error = critical_value * (std_dev / np.sqrt(sample_size))
+
+# Calculate the confidence interval
+lower_bound = mean - margin_of_error
+upper_bound = mean + margin_of_error
+
+print("99% Confidence Interval: [{:.2f}, {:.2f}]".format(lower_bound, upper_bound))
+
+
+
+# Sample data (replace this with your actual dataset)
+data = np.array([20, 20, 18, 22, 25, 19, 23, 21, 24])
+
+# Calculate mean and standard deviation
+mean = np.mean(data)
+std_dev = np.std(data, ddof=1)  # ddof=1 applies Bessel's correction (n-1) for sample standard deviation
+sample_size = len(data)
+
+# Confidence level (e.g., 95% confidence interval)
+confidence_level = 0.95
+
+# Calculate the degrees of freedom
+degrees_of_freedom = sample_size - 1
+
+# Calculate the critical t-value from the t-distribution
+alpha = 1 - confidence_level
+critical_t_value = stats.t.ppf(1 - alpha/2, degrees_of_freedom)
+
+# Calculate the margin of error
+margin_of_error = critical_t_value * (std_dev / np.sqrt(sample_size))
+
+# Calculate the confidence interval
+lower_bound = mean - margin_of_error
+upper_bound = mean + margin_of_error
+
+print(f'95% confidence interval {lower_bound:.2f}, {upper_bound:.2f}')
+
+
+a = 'brian'
+print(id(a))
+b = 'brian
+print(id(b))
+id(a) == id(b)
+
+
+'''3) Create a list to store the following values: 1, 2, 3, 4, 5, 6 and assign this
+list to a variable called myList .
+Print the contents myList .
+Print the contents of myList in reverse using index slicing.
+Print the contents of myList in reverse using a loop.
+Append 10 random integers to myList using a loop.
+Extend myList with the following list [200, 300] .
+Store the last number in the list in a variable called lastVal and remove that
+value from myList . ['''
+    
+my_list = [ 1,2,3,4,5,6]
+
+print(my_list)
+print(my_list[::-1])
+for i in reversed(my_list):
+    print(i)
+for i in my_list[::-1]:
+    print(i)
+    
+import random
+while len(my_list) < 17:
+    random_integer = random.randint(1,100)
+    my_list.append(random_integer)
+    
+print(my_list)
+print(len(my_list))
+
+for i in range(1,10):
+    random_integer = random.randint(1,100)
+    my_list.append(random_integer)
+print(my_list)
+
+my_list.extend([200,300])
+print(my_list)
+lastVal = my_list[-1]
+my_list.remove(lastVal)
+print(my_list)
+
+'''Create an empty dictionary object called myDict . Using a loop structure, add an
+entry to myDict for each value in myList . The key values for entries in myDict
+should be integer values commencing at 0 .'''
+
+my_Dict = {}
+for index, value in enumerate(my_list):
+    my_Dict[index] = value
+    
+print(my_Dict)
+
+'''5) Write code to generate the first 6 rows of Pascal’s Triangle. [Note: Please attempt
+this without accessing an algorithm specification from the web!!! For this task you
+should implement the required loop controls and use appropriate data-structures.
+When printing each row ensure that values are separated by a TAB character. ]
+Your output should be
+1
+1 1
+1 2 1
+1 3 3 1
+1 4 6 4 1
+1 5 10 10 5 1
+Investigate how to define functions in Python. Create a function that will print the
+first n rows of Pascal’s Triangle.'''
+
+from typing import List
+class Solution:
+    def generate(self, numRows: int) -> List[List[int]]:
+        res = [[1]]
+        
+        for i in range(numRows - 1):
+            temp = [0] + res[-1] + [0]
+            row = []
+            for j in range(len(res[-1]) + 1):
+                row.append(temp[j] + temp[j+1])
+            res.append(row)
+        return res
+# Create an instance of the Solution class
+solution_instance = Solution()
+
+# Call the generate function for 6 rows
+pascals_triangle_6_rows = solution_instance.generate(6)
+
+# Print the generated Pascal's Triangle
+print(pascals_triangle_6_rows)
+
+   
+user_input = input('What does the gup say?')
+
+while user_input != 'bork':
+    user_input = input('Incorrect, try again: ')
+
+print('Congratulations! You one smart bork')

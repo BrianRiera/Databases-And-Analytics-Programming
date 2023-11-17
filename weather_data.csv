@@ -1,0 +1,25 @@
+Temperature,Symbol,Weather Description,text,windSpeed,windGust,cardinalWindDirection,windDirection,humidity,rainfall,pressure,dayName,date,Report Time
+11,,Light rain showers,"""Recent Rain""",41,70,SW,, 85 , 0.1 ,986,Sunday,09-02-2020,00:00
+11,,Light rain ,"""Light rain """,37,72,SW,, 89 , 0.01 ,986,Sunday,09-02-2020,01:00
+11,,Light rain ,"""Light rain """,30,65,SW,, 92 , 0.8 ,987,Sunday,09-02-2020,02:00
+11,,Light rain ,"""Light rain """,24,54,SW,, 90 , 1.5 ,983,Sunday,09-02-2020,03:00
+11,,Light rain ,"""Light rain """,31,52,SW,, 92 , 3.3 ,983,Sunday,09-02-2020,04:00
+11,,Light rain ,"""Light rain """,31,54,SW,, 90 , 0.4 ,979,Sunday,09-02-2020,05:00
+11,,Light rain ,"""Light rain """,31,56,SW,, 92 , 3.2 ,978,Sunday,09-02-2020,06:00
+11,,Light rain ,"""Light rain """,39,67,SW,, 92 , 1.5 ,975,Sunday,09-02-2020,07:00
+10,,Rain,"""Moderate rain """,43,74,W,, 94 , 5.1 ,974,Sunday,09-02-2020,08:00
+9,,Light rain ,"""Light rain """,37,89,W,, 82 , 5.1 ,975,Sunday,09-02-2020,09:00
+10,,Rain showers,"""Rain shower""",35,74,SW,, 71 , 0.2 ,974,Sunday,09-02-2020,10:00
+11,,Rain showers,"""Rain shower""",28,65,W,, 77 , 0.1 ,975,Sunday,09-02-2020,11:00
+10,,Light rain showers,"""Recent Rain""",31,85,SW,, 73 , 0.5 ,975,Sunday,09-02-2020,12:00
+11,,Fair,"""Fair""",37,80,SW,, 65 , 0.0 ,974,Sunday,09-02-2020,13:00
+7,,Rain showers,"""Rain shower""",46,81,W,, 83 , 0.2 ,975,Sunday,09-02-2020,14:00
+8,,Light rain showers,"""Recent Rain""",28,76,W,, 87 , 1.6 ,976,Sunday,09-02-2020,15:00
+8,,Light rain showers,"""Recent Rain""",33,63,W,, 79 , 0.1 ,976,Sunday,09-02-2020,16:00
+7,,Rain showers,"""Rain shower""",37,72,W,, 85 , 0.5 ,977,Sunday,09-02-2020,17:00
+7,,Light rain showers,"""Recent Rain""",24,70,W,, 83 , 0.8 ,978,Sunday,09-02-2020,18:00
+7,,Light rain showers,"""Recent Rain""",30,52,W,, 82 , 0.1 ,979,Sunday,09-02-2020,19:00
+6,,Rain showers,"""Rain shower""",33,57,W,, 85 , 0.3 ,981,Sunday,09-02-2020,20:00
+6,,Light rain showers,"""Recent Rain""",26,54,W,, 88 , 0.3 ,982,Sunday,09-02-2020,21:00
+6,,Rain showers,"""Rain shower""",39,61,W,, 78 , 0.01 ,983,Sunday,09-02-2020,22:00
+5,,Rain showers,"""Rain shower""",30,61,W,, 84 , 0.01 ,985,Sunday,09-02-2020,23:00

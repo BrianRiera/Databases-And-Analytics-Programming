@@ -1,0 +1,74 @@
+[
+    {
+        "name": "Sample Name",
+        "PhoneNumber": "12345642357891",
+        "EmailAddress": "sample_name@example.com",
+        "StreetLine1": "Street Line1",
+        "City": "City Name",
+        "StateCode": "AE",
+        "PostalCode": "12345"
+    },
+    {
+        "name": "Sample Name1",
+        "PhoneNumber": "1234567891",
+        "EmailAddress": "sample_name1@example.com",
+        "StreetLine1": "Current Address",
+        "City": "Los Angeles",
+        "StateCode": "CA",
+        "PostalCode": "56666"
+    },
+    {
+        "name": "Sample Name2",
+        "PhoneNumber": "1234567891",
+        "EmailAddress": "sample_name1@example.com",
+        "StreetLine1": "Current Address",
+        "City": "Los Angeles",
+        "StateCode": "CA",
+        "PostalCode": "56666"
+    },
+    {
+        "name": "Sample Name3",
+        "PhoneNumber": "1234567891",
+        "EmailAddress": "sample_name1@example.com",
+        "StreetLine1": "Current Address",
+        "City": "Los Angeles",
+        "StateCode": "CA",
+        "PostalCode": "56666"
+    },
+    {
+        "name": "Sample Name4",
+        "PhoneNumber": "1234567891",
+        "EmailAddress": "sample_name1@example.com",
+        "StreetLine1": "Current Address",
+        "City": "Los Angeles",
+        "StateCode": "CA",
+        "PostalCode": "56666"
+    },
+    {
+        "name": "Sample Name5",
+        "PhoneNumber": "1234567891",
+        "EmailAddress": "sample_name1@example.com",
+        "StreetLine1": "Current Address",
+        "City": "Los Angeles",
+        "StateCode": "CA",
+        "PostalCode": "56666"
+    },
+    {
+        "name": "Sample Name6",
+        "PhoneNumber": "1234567891",
+        "EmailAddress": "sample_name1@example.com",
+        "StreetLine1": "Current Address",
+        "City": "Los Angeles",
+        "StateCode": "CA",
+        "PostalCode": "56666"
+    },
+    {
+        "name": "Sample Name7",
+        "PhoneNumber": "1234567891",
+        "EmailAddress": "sample_name1@example.com",
+        "StreetLine1": "Current Address",
+        "City": "Los Angeles",
+        "StateCode": "CA",
+        "PostalCode": "56666"
+    }
+]

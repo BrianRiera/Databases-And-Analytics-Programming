@@ -1,0 +1,102 @@
+{
+    "State": {
+        "Resident": [
+            {
+                "@Id": "100",
+                "Name": "Sample Name",
+                "PhoneNumber": "12345642357891",
+                "EmailAddress": "sample_name@example.com",
+                "Address": {
+                    "StreetLine1": "Street Line1",
+                    "City": "City Name",
+                    "StateCode": "AE",
+                    "PostalCode": "12345"
+                }
+            },
+            {
+                "@Id": "101",
+                "Name": "Sample Name1",
+                "PhoneNumber": "1234567891",
+                "EmailAddress": "sample_name1@example.com",
+                "Address": {
+                    "StreetLine1": "Current Address",
+                    "City": "Los Angeles",
+                    "StateCode": "CA",
+                    "PostalCode": "56666"
+                }
+            },
+            {
+                "@Id": "103",
+                "Name": "Sample Name2",
+                "PhoneNumber": "1234567891",
+                "EmailAddress": "sample_name1@example.com",
+                "Address": {
+                    "StreetLine1": "Current Address",
+                    "City": "Los Angeles",
+                    "StateCode": "CA",
+                    "PostalCode": "56666"
+                }
+            },
+            {
+                "@Id": "104",
+                "Name": "Sample Name3",
+                "PhoneNumber": "1234567891",
+                "EmailAddress": "sample_name1@example.com",
+                "Address": {
+                    "StreetLine1": "Current Address",
+                    "City": "Los Angeles",
+                    "StateCode": "CA",
+                    "PostalCode": "56666"
+                }
+            },
+            {
+                "@Id": "105",
+                "Name": "Sample Name4",
+                "PhoneNumber": "1234567891",
+                "EmailAddress": "sample_name1@example.com",
+                "Address": {
+                    "StreetLine1": "Current Address",
+                    "City": "Los Angeles",
+                    "StateCode": "CA",
+                    "PostalCode": "56666"
+                }
+            },
+            {
+                "@Id": "106",
+                "Name": "Sample Name5",
+                "PhoneNumber": "1234567891",
+                "EmailAddress": "sample_name1@example.com",
+                "Address": {
+                    "StreetLine1": "Current Address",
+                    "City": "Los Angeles",
+                    "StateCode": "CA",
+                    "PostalCode": "56666"
+                }
+            },
+            {
+                "@Id": "107",
+                "Name": "Sample Name6",
+                "PhoneNumber": "1234567891",
+                "EmailAddress": "sample_name1@example.com",
+                "Address": {
+                    "StreetLine1": "Current Address",
+                    "City": "Los Angeles",
+                    "StateCode": "CA",
+                    "PostalCode": "56666"
+                }
+            },
+            {
+                "@Id": "108",
+                "Name": "Sample Name7",
+                "PhoneNumber": "1234567891",
+                "EmailAddress": "sample_name1@example.com",
+                "Address": {
+                    "StreetLine1": "Current Address",
+                    "City": "Los Angeles",
+                    "StateCode": "CA",
+                    "PostalCode": "56666"
+                }
+            }
+        ]
+    }
+}
